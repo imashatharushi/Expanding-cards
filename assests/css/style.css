@@ -46,3 +46,21 @@ img{
 .active h4{
     opacity: 1 !important;
 }
+
+/* responsive */
+@media(max-width:768px){
+    .container{
+    padding: 50px 10px;
+    gap: 10px;
+}
+    .container > div{
+        width: 40px;
+    }
+}
+
+@media(max-width:768){
+    .container > div:nth-child(4),
+    .container > div:nth-child(5){
+        display: none;
+    }
+}
